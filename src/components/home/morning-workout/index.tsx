@@ -5,15 +5,15 @@ import Ellipse from "../../ellipse-blur";
 
 type Props = {};
 
-const FullBodyWorkout = (props: Props) => {
+const MorningWorkout = (props: Props) => {
   return (
-    <div className="my-20 sm:my-32 flex flex-col-reverse md:flex-row items-center gap-28 lg:gap-44 relative">
-      {/* <Ellipse modifyingClasses="-right-[25%] -top-[50%]" />
-      <Ellipse modifyingClasses="-left-[15%] -bottom-[75%]" /> */}
+    <div className="-mt-28 xs:my-20 sm:my-32 flex flex-col-reverse md:flex-row-reverse items-center gap-28 lg:gap-44 relative">
+      <Ellipse modifyingClasses="-right-[25%] -top-[50%]" />
+      <Ellipse modifyingClasses="-left-[15%] -bottom-[75%]" />
       <WorkoutImage />
       <div className=" max-w-[500px] flex flex-col justify-center items-start gap-8 tablet:gap-12">
         <h2 className=" section-medium-heading lg:text-[40px]">
-          Best full body workout to loose fat
+          Daily morning workout in home
         </h2>
         <p className="section-body max-w-[500px] md:max-w-full flex-1 ">
           Exercise is a very important need for our body. Health and fitness
@@ -34,4 +34,4 @@ const FullBodyWorkout = (props: Props) => {
   );
 };
 
-export default FullBodyWorkout;
+export default MorningWorkout;

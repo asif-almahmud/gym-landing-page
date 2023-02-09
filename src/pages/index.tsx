@@ -8,6 +8,7 @@ import Container from "@/components/container";
 import Slogan from "@/components/home/slogan";
 import Offers from "@/components/home/challenges";
 import FullBodyWorkout from "@/components/home/full-body-workout";
+import MorningWorkout from "@/components/home/morning-workout";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function Home() {
           <Slogan />
           <Offers />
           <FullBodyWorkout />
+          <MorningWorkout />
         </Container>
       </GeneralLayout>
     </div>

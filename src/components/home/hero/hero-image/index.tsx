@@ -1,7 +1,8 @@
 import Emoticon from "@/components/emoticon";
 import EmoticonCard from "@/components/emoticon-card";
 import Image from "next/image";
-import trainer from "@/assets/images/trainer.png";
+import trainer from "@/assets/images/trainer.jpg";
+import morningWorkout from "@/assets/images/morning-workout.jpg";
 
 type Props = {};
 
@@ -13,7 +14,7 @@ const HeroImage = (props: Props) => {
         alt="Picture of the trainer"
         priority
         // className="object-cover"
-        className="max-w-[320px] object-contain"
+        className="max-w-[320px] min-h-[450px] object-cover"
       />
 
       <EmoticonCard
